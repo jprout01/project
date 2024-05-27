@@ -1,0 +1,33 @@
+credentials:
+  usernames:
+    jyoti:
+      email: jyoti@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: jyoti
+      password: jyoti # Will be hashed automatically
+    aditya:
+      email: aditya@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: aditya
+      password: aditya # Will be hashed automatically
+    akash:
+      email: akash@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: akash
+      password: akash # Will be hashed automatically
+    arpita:
+      email: arpita@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: arpita
+      password: arpita # Will be hashed automatically    
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+pre-authorized:
+  emails:
+  - melsby@gmail.com
